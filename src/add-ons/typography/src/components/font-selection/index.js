@@ -832,7 +832,7 @@ class TypographySelection extends Component {
 											<img
 												src={
 													window.editorskitTypographyAddonInfo.plugin.url +
-													"/includes/images/combinations/" +
+													"/typography-assets/combinations/" +
 													font.name +
 													".png"
 												}
