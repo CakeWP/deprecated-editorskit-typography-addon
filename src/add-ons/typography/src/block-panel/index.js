@@ -16,10 +16,10 @@ import GoogleFonts from "../defaults/google-fonts.json";
  * WordPress Dependencies
  */
 import { addFilter } from "@wordpress/hooks";
-import { withSelect, withDispatch, useSelect } from "@wordpress/data";
-import { Fragment, useEffect, useMemo } from "@wordpress/element";
-import { compose, createHigherOrderComponent } from "@wordpress/compose";
 import { hasBlockSupport, getBlockType } from "@wordpress/blocks";
+import { Fragment, useEffect, useMemo } from "@wordpress/element";
+import { withSelect, withDispatch, useSelect } from "@wordpress/data";
+import { compose, createHigherOrderComponent } from "@wordpress/compose";
 
 /**
  * Filters registered block settings, extending attributes with anchor using ID
@@ -195,27 +195,22 @@ const withTypographySettings = createHigherOrderComponent((BlockListBlock) => {
 }, "withTypographySettings");
 
 const isDisabled = false;
-//  wp.data
-// 		.select("core/edit-post")
-// 		.isFeatureActive("disableEditorsKitTypography");
 
-if (!isDisabled) {
-	addFilter(
-		"blocks.registerBlockType",
-		"editorskit/typography/attributes",
-		addAttributes
-	);
+addFilter(
+	"blocks.registerBlockType",
+	"editorskit/typography/attributes",
+	addAttributes
+);
 
-	addFilter(
-		"editor.BlockEdit",
-		"editorskit/typography/block-panel",
-		withBlockPanel
-	);
+addFilter(
+	"editor.BlockEdit",
+	"editorskit/typography/block-panel",
+	withBlockPanel
+);
 
-	addFilter(
-		"editor.BlockListBlock",
-		"editorskit/typography/withTypographySettings",
-		withTypographySettings,
-		10
-	);
-}
+addFilter(
+	"editor.BlockListBlock",
+	"editorskit/typography/withTypographySettings",
+	withTypographySettings,
+	10
+);

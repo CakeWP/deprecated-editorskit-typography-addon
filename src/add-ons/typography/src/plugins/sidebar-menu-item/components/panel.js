@@ -1,7 +1,6 @@
 /**
  * Internal dependencies
  */
-import icon from "../icon";
 import TypographySelection from "../../../components/font-selection";
 
 /**
@@ -10,11 +9,10 @@ import TypographySelection from "../../../components/font-selection";
 import { __ } from "@wordpress/i18n";
 import { compose } from "@wordpress/compose";
 import { withSelect } from "@wordpress/data";
+import { typography } from "@wordpress/icons";
+import { BlockIcon } from "@wordpress/blockEditor";
 import { Fragment, Component } from "@wordpress/element";
 import { withSpokenMessages } from "@wordpress/components";
-import { BlockIcon } from "@wordpress/blockEditor";
-// import { PluginSidebar, PluginSidebarMoreMenuItem } from "@wordpress/edit-post";
-import domReady from "@wordpress/dom-ready";
 
 /**
  * Render plugin
@@ -29,12 +27,9 @@ class SidebarPanel extends Component {
 	}
 
 	render() {
-		let PluginSidebar;
-		let PluginSidebarMoreMenuItem;
-		domReady(() => {
-			PluginSidebar = wp.editPost.PluginSidebar;
-			PluginSidebarMoreMenuItem = wp.editPost.PluginSidebarMoreMenuItem;
-		});
+		let PluginSidebar = wp.editPost.PluginSidebar;
+		let PluginSidebarMoreMenuItem = wp.editPost.PluginSidebarMoreMenuItem;
+
 		return (
 			<Fragment>
 				<PluginSidebarMoreMenuItem target="editorskit-typography-panel">
@@ -46,7 +41,7 @@ class SidebarPanel extends Component {
 				>
 					<div className="editorskit-block-card">
 						<div className="block-editor-block-card">
-							<BlockIcon icon={icon.typography} showColors />
+							<BlockIcon icon={typography} showColors />
 							<div className="block-editor-block-card__content">
 								<div className="block-editor-block-card__title">
 									{__("Typography Settings", "editorskit-typography-addon")}

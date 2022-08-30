@@ -1,0 +1,41 @@
+name: Build development zip file
+on: push
+jobs:
+    build:
+        name: Build and zip
+        runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false
+            matrix:
+                node-version: [16.x]
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v1
+
+            - name: Using Node version ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+
+            - name: Bootstrap plugin
+              run: |
+                  npm install
+                  npm run build
+                  touch .devbuild
+                  
+            - name: Package
+              uses: actions/upload-artifact@v2
+              with:
+                  name: editorskit-typography-addon
+                  retention-days: 10
+                  path: |
+                      ${{ github.workspace }}/
+                      !${{ github.workspace }}/node_modules/
+                      !${{ github.workspace }}/.github/
+                      !${{ github.workspace }}/.git/
+                      !${{ github.workspace }}/src/
+                      !${{ github.workspace }}/.editorconfig
+                      !${{ github.workspace }}/.gitignore
+                      !${{ github.workspace }}/package.json
+                      !${{ github.workspace }}/package-lock.json
+                      !${{ github.workspace }}/readme.md
