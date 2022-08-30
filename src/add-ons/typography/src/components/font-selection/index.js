@@ -34,11 +34,6 @@ const {
 /**
  * Get settings.
  */
-let settings;
-
-domReady(() => {
-	settings = new wp.api.models.Settings();
-});
 
 const defaultUnits = {
 	"font-size-unit": "px",
@@ -101,7 +96,7 @@ class TypographySelection extends Component {
 			applyToAll: false,
 		};
 
-		settings.fetch().then((response) => {
+		new wp.api.models.Settings().fetch().then((response) => {
 			if (response.editorskit_typography_custom) {
 				this.setState({
 					optionsData: JSON.parse(response.editorskit_typography_custom),
@@ -453,7 +448,7 @@ class TypographySelection extends Component {
 				customKey,
 			});
 
-			settings.fetch();
+			new wp.api.models.Settings().fetch();
 		});
 	}
 
@@ -492,7 +487,7 @@ class TypographySelection extends Component {
 				isDeleting: false,
 				optionsData,
 			});
-			settings.fetch();
+			new wp.api.models.Settings().fetch();
 		});
 
 		noticeMessage(
@@ -528,7 +523,7 @@ class TypographySelection extends Component {
 				isRemovingDefault: false,
 				defaultTypography,
 			});
-			settings.fetch();
+			new wp.api.models.Settings().fetch();
 		});
 
 		noticeMessage(
