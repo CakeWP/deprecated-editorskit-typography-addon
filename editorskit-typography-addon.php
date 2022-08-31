@@ -39,7 +39,7 @@ class EditorsKit_Typography_Addon
 	{
 		add_action('init', function () {
 			wp_register_script(
-				"starter-plugin-script",
+				"editorskit-typography-addon-script",
 				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/index.js',
 				array(
 					"wp-element",
@@ -52,14 +52,14 @@ class EditorsKit_Typography_Addon
 				uniqid()
 			);
 			wp_register_style(
-				'starter-plugin-editor-style',
+				'editorskit-typography-addon-editor-style',
 				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/index.css',
 				array(),
 				uniqid()
 			);
 
 			wp_register_style(
-				'starter-plugin-frontend-style',
+				'editorskit-typography-addon-frontend-style',
 				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/style-index.css',
 				array(),
 				uniqid()
@@ -75,14 +75,14 @@ class EditorsKit_Typography_Addon
 				),
 			);
 
-			wp_add_inline_script("starter-plugin-script", 'window.editorskitTypographyAddonInfo = ' . wp_json_encode($global) . ';', 'before');
-			wp_enqueue_script('starter-plugin-script');
-			wp_enqueue_style('starter-plugin-editor-style');
+			wp_add_inline_script("editorskit-typography-addon-script", 'window.editorskitTypographyAddonInfo = ' . wp_json_encode($global) . ';', 'before');
+			wp_enqueue_script('editorskit-typography-addon-script');
+			wp_enqueue_style('editorskit-typography-addon-editor-style');
 		});
 
 		add_action('init', function () {
 			if (!is_admin()) {
-				wp_enqueue_style('starter-plugin-frontend-style');
+				wp_enqueue_style('editorskit-typography-addon-frontend-style');
 			}
 		});
 	}
