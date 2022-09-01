@@ -31,9 +31,9 @@ class EditorsKit_Typography_Addon
 
 	private function includes()
 	{
-		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-post-meta.php';
-		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-typography-font-loader.php';
-		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-block-typography-manager.php';
+		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-typography-addon-post-meta.php';
+		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-typography-addon-font-loader.php';
+		require_once	EDITORSKIT_TYPOGRAPHY_ADDON_DIR . 'includes/class-editorskit-block-typography-addon-manager.php';
 	}
 	public static function initFilters()
 	{
