@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name:       Editorskit Typography Addon
- * Description:       Starter extension for creating gutenberg based plugins.
+ * Description:       Editorskit Typography Addon
  * Requires at least: 5.8
  * Requires PHP:      7.0
  * Version:           0.1.0
