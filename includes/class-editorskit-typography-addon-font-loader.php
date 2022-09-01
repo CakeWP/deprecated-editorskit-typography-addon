@@ -14,12 +14,12 @@ if (!defined('ABSPATH')) {
  *
  * @since 1.0
  */
-class EditorsKit_Typography_Font_Loader
+class EditorsKit_Typography_addon_Font_Loader
 {
 	/**
 	 * This plugin's instance.
 	 *
-	 * @var EditorsKit_Typography_Font_Loader
+	 * @var EditorsKit_Typography_addon_Font_Loader
 	 */
 	private static $instance;
 	/**
@@ -29,7 +29,7 @@ class EditorsKit_Typography_Font_Loader
 	{
 
 		if (null === self::$instance) {
-			self::$instance = new EditorsKit_Typography_Font_Loader();
+			self::$instance = new EditorsKit_Typography_addon_Font_Loader();
 		}
 	}
 	/**
@@ -464,4 +464,4 @@ class EditorsKit_Typography_Font_Loader
 		return $urls;
 	}
 }
-EditorsKit_Typography_Font_Loader::register();
+EditorsKit_Typography_addon_Font_Loader::register();

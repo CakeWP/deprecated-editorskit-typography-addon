@@ -15,11 +15,11 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * EditorsKit_Post_Meta Class
+ * EditorsKit__Typography_addon_Post_Meta Class
  *
  * @since 1.6.0
  */
-class EditorsKit_Post_Meta
+class EditorsKit__Typography_addon_Post_Meta
 {
 
      /**
@@ -218,4 +218,4 @@ class EditorsKit_Post_Meta
      }
 }
 
-return new EditorsKit_Post_Meta();
+return new EditorsKit__Typography_addon_Post_Meta();

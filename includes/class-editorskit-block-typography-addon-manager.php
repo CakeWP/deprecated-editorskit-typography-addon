@@ -10,7 +10,7 @@
  * Class to handle block level typography
  */
 
-class Editorskit_Block_Typography_Manager
+class Editorskit_Block_Typography_Addon_Manager
 {
 
 	/**
@@ -184,4 +184,4 @@ class Editorskit_Block_Typography_Manager
 	}
 }
 
-new Editorskit_Block_Typography_Manager();
+new Editorskit_Block_Typography_Addon_Manager();
