@@ -38,6 +38,12 @@ class EditorsKit_Typography_Addon
 	public static function initFilters()
 	{
 		add_action('init', function () {
+			global $pagenow;
+
+			if ($pagenow === "widgets.php") {
+				return;
+			}
+
 			wp_register_script(
 				"editorskit-typography-addon-script",
 				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/index.js',

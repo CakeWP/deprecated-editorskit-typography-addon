@@ -6,9 +6,9 @@ import TypographySelection from "../../../components/font-selection";
 /**
  * WordPress dependencies
  */
+import { isFunction } from "lodash";
 import { __ } from "@wordpress/i18n";
 import { compose } from "@wordpress/compose";
-import { withSelect } from "@wordpress/data";
 import { typography } from "@wordpress/icons";
 import { BlockIcon } from "@wordpress/blockEditor";
 import { Fragment, Component } from "@wordpress/element";
@@ -27,8 +27,12 @@ class SidebarPanel extends Component {
 	}
 
 	render() {
-		let PluginSidebar = wp.editPost.PluginSidebar;
-		let PluginSidebarMoreMenuItem = wp.editPost.PluginSidebarMoreMenuItem;
+		let PluginSidebar = wp?.editPost?.PluginSidebar;
+		let PluginSidebarMoreMenuItem = wp?.editPost?.PluginSidebarMoreMenuItem;
+
+		if (!isFunction(PluginSidebar) || !isFunction(PluginSidebarMoreMenuItem)) {
+			return null;
+		}
 
 		return (
 			<Fragment>
@@ -62,12 +66,4 @@ class SidebarPanel extends Component {
 	}
 }
 
-export default compose([
-	withSelect((select) => {
-		const { isFeatureActive } = select("core/edit-post");
-		return {
-			isDisabled: isFeatureActive("disableEditorsKitTypography"),
-		};
-	}),
-	withSpokenMessages,
-])(SidebarPanel);
+export default compose([withSpokenMessages])(SidebarPanel);

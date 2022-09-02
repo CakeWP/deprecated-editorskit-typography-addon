@@ -1,14 +1,17 @@
-/******/ (function() { // webpackBootstrap
+/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@wordpress/icons/build-module/library/typography.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/@wordpress/icons/build-module/library/typography.js ***!
   \**************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/primitives */ "@wordpress/primitives");
@@ -25,7 +28,7 @@ const typography = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElem
 }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__.Path, {
   d: "M6.9 7L3 17.8h1.7l1-2.8h4.1l1 2.8h1.7L8.6 7H6.9zm-.7 6.6l1.5-4.3 1.5 4.3h-3zM21.6 17c-.1.1-.2.2-.3.2-.1.1-.2.1-.4.1s-.3-.1-.4-.2c-.1-.1-.1-.3-.1-.6V12c0-.5 0-1-.1-1.4-.1-.4-.3-.7-.5-1-.2-.2-.5-.4-.9-.5-.4 0-.8-.1-1.3-.1s-1 .1-1.4.2c-.4.1-.7.3-1 .4-.2.2-.4.3-.6.5-.1.2-.2.4-.2.7 0 .3.1.5.2.8.2.2.4.3.8.3.3 0 .6-.1.8-.3.2-.2.3-.4.3-.7 0-.3-.1-.5-.2-.7-.2-.2-.4-.3-.6-.4.2-.2.4-.3.7-.4.3-.1.6-.1.8-.1.3 0 .6 0 .8.1.2.1.4.3.5.5.1.2.2.5.2.9v1.1c0 .3-.1.5-.3.6-.2.2-.5.3-.9.4-.3.1-.7.3-1.1.4-.4.1-.8.3-1.1.5-.3.2-.6.4-.8.7-.2.3-.3.7-.3 1.2 0 .6.2 1.1.5 1.4.3.4.9.5 1.6.5.5 0 1-.1 1.4-.3.4-.2.8-.6 1.1-1.1 0 .4.1.7.3 1 .2.3.6.4 1.2.4.4 0 .7-.1.9-.2.2-.1.5-.3.7-.4h-.3zm-3-.9c-.2.4-.5.7-.8.8-.3.2-.6.2-.8.2-.4 0-.6-.1-.9-.3-.2-.2-.3-.6-.3-1.1 0-.5.1-.9.3-1.2s.5-.5.8-.7c.3-.2.7-.3 1-.5.3-.1.6-.3.7-.6v3.4z"
 }));
-/* harmony default export */ __webpack_exports__["default"] = (typography);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (typography);
 //# sourceMappingURL=typography.js.map
 
 /***/ }),
@@ -34,10 +37,13 @@ const typography = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElem
 /*!***************************************************************!*\
   !*** ./src/add-ons/typography/src/block-panel/apply-style.js ***!
   \***************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "lodash");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _defaults_google_fonts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../defaults/google-fonts */ "./src/add-ons/typography/src/defaults/google-fonts.json");
@@ -98,7 +104,7 @@ function applyFontStyle(attributes, blockName, wrapperProps) {
   return style;
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (applyFontStyle);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (applyFontStyle);
 
 /***/ }),
 
@@ -106,7 +112,7 @@ function applyFontStyle(attributes, blockName, wrapperProps) {
 /*!*********************************************************!*\
   !*** ./src/add-ons/typography/src/block-panel/index.js ***!
   \*********************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -328,10 +334,13 @@ const isDisabled = false;
 /*!********************************************************************!*\
   !*** ./src/add-ons/typography/src/block-panel/typography/index.js ***!
   \********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "lodash");
@@ -526,7 +535,7 @@ const TypographySettings = props => {
   }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Reset", "editorskit-typography-addon"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = ((0,_wordpress_compose__WEBPACK_IMPORTED_MODULE_4__.compose)([(0,_wordpress_data__WEBPACK_IMPORTED_MODULE_5__.withSelect)(select => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_wordpress_compose__WEBPACK_IMPORTED_MODULE_4__.compose)([(0,_wordpress_data__WEBPACK_IMPORTED_MODULE_5__.withSelect)(select => {
   const {
     isFeatureActive
   } = select("core/edit-post");
@@ -555,10 +564,13 @@ const TypographySettings = props => {
 /*!******************************************************************************************!*\
   !*** ./src/add-ons/typography/src/components/font-selection/components/dropdown-menu.js ***!
   \******************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "lodash");
@@ -761,7 +773,7 @@ class TypographyDropdownMenu extends Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (withSpokenMessages(TypographyDropdownMenu));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (withSpokenMessages(TypographyDropdownMenu));
 
 /***/ }),
 
@@ -769,12 +781,12 @@ class TypographyDropdownMenu extends Component {
 /*!************************************************************************************!*\
   !*** ./src/add-ons/typography/src/components/font-selection/heading-level-icon.js ***!
   \************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ HeadingLevelIcon; }
+/* harmony export */   "default": () => (/* binding */ HeadingLevelIcon)
 /* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
@@ -823,10 +835,13 @@ function HeadingLevelIcon(_ref) {
 /*!***********************************************************************!*\
   !*** ./src/add-ons/typography/src/components/font-selection/index.js ***!
   \***********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__);
@@ -1841,7 +1856,7 @@ class TypographySelection extends Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (compose([withSelect(select => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (compose([withSelect(select => {
   return {
     postmeta: select("core/editor").getEditedPostAttribute("meta")
   };
@@ -1894,10 +1909,13 @@ class TypographySelection extends Component {
 /*!*********************************************************************!*\
   !*** ./src/add-ons/typography/src/components/unit-control/index.js ***!
   \*********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "lodash");
@@ -1994,7 +2012,7 @@ class UnitControl extends Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (withSpokenMessages(UnitControl));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (withSpokenMessages(UnitControl));
 
 /***/ }),
 
@@ -2002,7 +2020,7 @@ class UnitControl extends Component {
 /*!*********************************************!*\
   !*** ./src/add-ons/typography/src/index.js ***!
   \*********************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -2020,19 +2038,22 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************************************************!*\
   !*** ./src/add-ons/typography/src/plugins/sidebar-menu-item/components/panel.js ***!
   \**********************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_font_selection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../components/font-selection */ "./src/add-ons/typography/src/components/font-selection/index.js");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/compose */ "@wordpress/compose");
-/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_compose__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "lodash");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @wordpress/compose */ "@wordpress/compose");
+/* harmony import */ var _wordpress_compose__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wordpress_compose__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _wordpress_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @wordpress/icons */ "./node_modules/@wordpress/icons/build-module/library/typography.js");
 /* harmony import */ var _wordpress_blockEditor__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @wordpress/blockEditor */ "@wordpress/blockEditor");
 /* harmony import */ var _wordpress_blockEditor__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blockEditor__WEBPACK_IMPORTED_MODULE_5__);
@@ -2068,13 +2089,20 @@ class SidebarPanel extends _wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Compo
   }
 
   render() {
-    let PluginSidebar = wp.editPost.PluginSidebar;
-    let PluginSidebarMoreMenuItem = wp.editPost.PluginSidebarMoreMenuItem;
+    var _wp, _wp$editPost, _wp2, _wp2$editPost;
+
+    let PluginSidebar = (_wp = wp) === null || _wp === void 0 ? void 0 : (_wp$editPost = _wp.editPost) === null || _wp$editPost === void 0 ? void 0 : _wp$editPost.PluginSidebar;
+    let PluginSidebarMoreMenuItem = (_wp2 = wp) === null || _wp2 === void 0 ? void 0 : (_wp2$editPost = _wp2.editPost) === null || _wp2$editPost === void 0 ? void 0 : _wp2$editPost.PluginSidebarMoreMenuItem;
+
+    if (!(0,lodash__WEBPACK_IMPORTED_MODULE_2__.isFunction)(PluginSidebar) || !(0,lodash__WEBPACK_IMPORTED_MODULE_2__.isFunction)(PluginSidebarMoreMenuItem)) {
+      return null;
+    }
+
     return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(PluginSidebarMoreMenuItem, {
       target: "editorskit-typography-panel"
-    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("Typography Settings", "editorskit-typography-addon")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(PluginSidebar, {
+    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Typography Settings", "editorskit-typography-addon")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(PluginSidebar, {
       name: "editorskit-typography-panel",
-      title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("Typography Settings", "editorskit-typography-addon")
+      title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Typography Settings", "editorskit-typography-addon")
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: "editorskit-block-card"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -2086,21 +2114,14 @@ class SidebarPanel extends _wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Compo
       className: "block-editor-block-card__content"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: "block-editor-block-card__title"
-    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("Typography Settings", "editorskit-typography-addon")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Typography Settings", "editorskit-typography-addon")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
       className: "block-editor-block-card__description"
-    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("Select from predefined font combinations. You can also create custom combo or duplicate existing ones.", "editorskit-typography-addon"))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_font_selection__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
+    }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)("Select from predefined font combinations. You can also create custom combo or duplicate existing ones.", "editorskit-typography-addon"))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_font_selection__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = ((0,_wordpress_compose__WEBPACK_IMPORTED_MODULE_3__.compose)([(0,_wordpress_data__WEBPACK_IMPORTED_MODULE_4__.withSelect)(select => {
-  const {
-    isFeatureActive
-  } = select("core/edit-post");
-  return {
-    isDisabled: isFeatureActive("disableEditorsKitTypography")
-  };
-}), _wordpress_components__WEBPACK_IMPORTED_MODULE_6__.withSpokenMessages])(SidebarPanel));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_wordpress_compose__WEBPACK_IMPORTED_MODULE_4__.compose)([_wordpress_components__WEBPACK_IMPORTED_MODULE_6__.withSpokenMessages])(SidebarPanel));
 
 /***/ }),
 
@@ -2108,7 +2129,7 @@ class SidebarPanel extends _wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Compo
 /*!***********************************************************************!*\
   !*** ./src/add-ons/typography/src/plugins/sidebar-menu-item/index.js ***!
   \***********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -2139,7 +2160,7 @@ _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_1___default()(() => {
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -2156,7 +2177,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!******************************************!*\
   !*** ./node_modules/classnames/index.js ***!
   \******************************************/
-/***/ (function(module, exports) {
+/***/ ((module, exports) => {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2018 Jed Watson.
@@ -2223,7 +2244,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /*!*************************!*\
   !*** ./src/editor.scss ***!
   \*************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -2236,7 +2257,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************!*\
   !*** ./src/style.scss ***!
   \************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -2249,7 +2270,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!*************************!*\
   !*** external "lodash" ***!
   \*************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["lodash"];
@@ -2260,7 +2281,7 @@ module.exports = window["lodash"];
 /*!*************************************!*\
   !*** external ["wp","blockEditor"] ***!
   \*************************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["blockEditor"];
@@ -2271,7 +2292,7 @@ module.exports = window["wp"]["blockEditor"];
 /*!********************************!*\
   !*** external ["wp","blocks"] ***!
   \********************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["blocks"];
@@ -2282,7 +2303,7 @@ module.exports = window["wp"]["blocks"];
 /*!************************************!*\
   !*** external ["wp","components"] ***!
   \************************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["components"];
@@ -2293,7 +2314,7 @@ module.exports = window["wp"]["components"];
 /*!*********************************!*\
   !*** external ["wp","compose"] ***!
   \*********************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["compose"];
@@ -2304,7 +2325,7 @@ module.exports = window["wp"]["compose"];
 /*!******************************!*\
   !*** external ["wp","data"] ***!
   \******************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["data"];
@@ -2315,7 +2336,7 @@ module.exports = window["wp"]["data"];
 /*!**********************************!*\
   !*** external ["wp","domReady"] ***!
   \**********************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["domReady"];
@@ -2326,7 +2347,7 @@ module.exports = window["wp"]["domReady"];
 /*!*********************************!*\
   !*** external ["wp","element"] ***!
   \*********************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["element"];
@@ -2337,7 +2358,7 @@ module.exports = window["wp"]["element"];
 /*!*******************************!*\
   !*** external ["wp","hooks"] ***!
   \*******************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["hooks"];
@@ -2348,7 +2369,7 @@ module.exports = window["wp"]["hooks"];
 /*!******************************!*\
   !*** external ["wp","i18n"] ***!
   \******************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["i18n"];
@@ -2359,7 +2380,7 @@ module.exports = window["wp"]["i18n"];
 /*!************************************!*\
   !*** external ["wp","primitives"] ***!
   \************************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = window["wp"]["primitives"];
@@ -2370,15 +2391,15 @@ module.exports = window["wp"]["primitives"];
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
   \************************************************************/
-/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ _extends; }
+/* harmony export */   "default": () => (/* binding */ _extends)
 /* harmony export */ });
 function _extends() {
-  _extends = Object.assign || function (target) {
+  _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
 
@@ -2391,7 +2412,6 @@ function _extends() {
 
     return target;
   };
-
   return _extends.apply(this, arguments);
 }
 
@@ -2401,7 +2421,7 @@ function _extends() {
 /*!********************************************************!*\
   !*** ./src/add-ons/typography/src/defaults/fonts.json ***!
   \********************************************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = JSON.parse('{"roboto-cabin":{"name":"Roboto Condensed + Cabin","type":"default","category":"modern,minimal,warm","heading":{"font-weight":700,"font-family":"\'Roboto Condensed\', sans-serif"},"content":{"font-family":"\'Cabin\', sans-serif"},"fonts":["Roboto+Condensed:300,300i,400,400i,700,700i","Cabin:400,400i,500,500i,600,600i,700,700i"]},"raleway-open":{"name":"Raleway + Open Sans","type":"default","category":"modern,minimal","heading":{"font-weight":300,"font-family":"\'Raleway\', sans-serif"},"content":{"font-family":"\'Open Sans\', sans-serif"},"fonts":["Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i","Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"]},"playfair-sourcesans":{"name":"Playfair Display + Source Sans","type":"default","category":"striking,classic,warm","heading":{"font-weight":300,"font-family":"\'Playfair Display\', sans-serif"},"content":{"font-family":"\'Source Sans Pro\', sans-serif"},"fonts":["Playfair+Display:400,400i,700,700i,900,900i","Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"]},"roboto-lora":{"name":"Roboto + Lora","type":"default","category":"modern,neutral","heading":{"font-weight":700,"font-family":"\'Roboto\', sans-serif"},"content":{"font-family":"\'Lora\', serif"},"fonts":["Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i","Lora:400,400i,700,700i"]},"abril-poppins":{"name":"Abril Fatface + Poppins","type":"default","category":"eccentric,classic,warm","heading":{"font-weight":400,"font-family":"\'Abril Fatface\', cursive"},"content":{"font-family":"\'Poppins\', sans-serif"},"fonts":["Abril+Fatface","Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"]},"ruda-roboto":{"name":"Ruda + Roboto Slab","type":"default","category":"striking,eccentric,neutral","heading":{"font-weight":400,"font-family":"\'Ruda\', sans-serif"},"content":{"font-family":"\'Roboto Slab\', serif"},"fonts":["Ruda:400,700,900","Roboto+Slab:100,200,300,400,500,600,700,800,900"]},"cormorant-fira":{"name":"Cormorant Garamond + Fira Sans","type":"default","category":"eccentric,classic,minimal","heading":{"font-weight":700,"font-style":"italic","font-family":"\'Cormorant Garamond\', serif"},"content":{"font-family":"\'Fira Sans\', sans-serif"},"fonts":["Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i","Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"]},"pt-playfair":{"name":"PT Sans + Playfair Display","type":"default","category":"modern,neutral","heading":{"font-weight":700,"font-family":"\'PT Sans\', sans-serif"},"content":{"font-family":"\'Playfair Display\', serif"},"fonts":["PT+Sans:400,400i,700,700i","Playfair+Display:400,400i,700,700i,900,900i"]},"oxygen-noto":{"name":"Oxygen + Noto Serif","type":"default","category":"modern,minimal,neutral","heading":{"font-weight":400,"font-family":"\'Oxygen\', sans-serif"},"content":{"font-family":"\'Noto Serif\', serif"},"fonts":["Oxygen:300,400,700","Noto+Serif:400,400i,700,700i"]},"arvo-lato":{"name":"Arvo + Lato","type":"default","category":"modern,minimal,neutral,warm","heading":{"font-weight":400,"font-family":"\'Arvo\', serif"},"content":{"font-family":"\'Lato\', sans-serif"},"fonts":["Arvo:400,400i,700,700i","Lato:100,100i,300,300i,400,400i,700,700i,900,900i"]},"lato-catamaran":{"name":"Lato + Catamaran","type":"default","category":"classic,warm","heading":{"font-weight":400,"font-style":"italic","font-family":"\'Lato\', sans-serif"},"content":{"font-family":"\'Catamaran\', sans-serif"},"fonts":["Lato:100,100i,300,300i,400,400i,700,700i,900,900i","Catamaran:100,200,300,400,500,600,700,800,900"]},"merriweather-muli":{"name":"Merriweather + Muli","type":"default","category":"striking,classic,warm","heading":{"font-weight":400,"font-family":"\'Merriweather\', serif"},"content":{"font-weight":300,"font-family":"\'Muli\', sans-serif"},"fonts":["Merriweather:300,300i,400,400i,700,700i,900,900i","Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"]},"pt-bitter":{"name":"PT Sans + Bitter","type":"default","category":"modern,striking","heading":{"font-weight":400,"font-style":"italic","font-family":"\'PT Sans\', sans-serif"},"content":{"font-family":"\'Bitter\', serif"},"fonts":["PT+Sans:400,400i,700,700i","Bitter:400,400i,700"]},"cinzel-fauna":{"name":"Cinzel + Fauna One","type":"default","category":"striking,eccentric,warm","heading":{"font-weight":700,"text-transform":"uppercase","font-family":"\'Cinzel\', serif"},"content":{"font-family":"\'Fauna One\', serif"},"fonts":["Cinzel:400,700,90","Fauna+One"]},"work-open":{"name":"Work Sans + Open Sans","type":"default","category":"modern,classic,minimal,neutral","heading":{"font-weight":300,"font-family":"\'Work Sans\', sans-serif"},"content":{"font-family":"\'Open Sans\', sans-serif"},"fonts":["Work+Sans:100,200,300,400,500,600,700,800,900","Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"]},"oswald-quattro":{"name":"Oswald + Quattro Cento","type":"default","category":"modern,striking,minimal","heading":{"font-weight":400,"text-transform":"uppercase","font-family":"\'Oswald\', sans-serif"},"content":{"font-family":"\'Quattrocento\', serif"},"fonts":["Oswald:200,300,400,500,600,700","Quattrocento:400,700"]},"nunito-pt":{"name":"Nunito + PT Sans","type":"default","category":"eccentric,warm","heading":{"font-weight":400,"font-family":"\'Nunito\', sans-serif"},"content":{"font-family":"\'PT Sans\', sans-serif"},"fonts":["Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i","PT+Sans:400,400i,700,700i"]},"unica-crimson":{"name":"Unica One + Crimson Text","type":"default","category":"modern,striking,eccentric,minimal,neutral","heading":{"font-weight":400,"text-transform":"uppercase","font-family":"\'Unica One\', cursive"},"content":{"font-family":"\'Crimson Text\', serif"},"fonts":["Unica+One","Crimson+Text:400,400i,600,600i,700,700i"]},"julius-monda":{"name":"Julius Sans + Monda","type":"default","category":"striking,eccentric,minimal","heading":{"font-weight":400,"text-transform":"uppercase","font-family":"\'Julius Sans One\', sans-serif"},"content":{"font-family":"\'Monda\', sans-serif"},"fonts":["Julius+Sans+One","Monda:400,700"]},"varela-noto":{"name":"Varela Round + Noto Serif","type":"default","category":"neutral,warm","heading":{"font-weight":400,"font-family":"\'Varela Round\', sans-serif"},"content":{"font-family":"\'Noto Serif\', serif"},"fonts":["Varela+Round","Noto+Serif:400,400i,700,700i"]},"vollkorn-raleway":{"name":"Vollkorn + Raleway","type":"default","category":"modern,striking,eccentric,classic,warm","heading":{"font-weight":400,"font-style":"italic","font-family":"\'Vollkorn\', serif"},"content":{"font-family":"\'Raleway\', sans-serif"},"fonts":["Vollkorn:400,400i,600,600i,700,700i,900,900i","Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"]},"ovo-quattrocento":{"name":"Ovo + Quattrocento Sans","type":"default","category":"minimal,warm","heading":{"font-family":"\'Ovo\', serif"},"content":{"font-family":"\'Quattrocento Sans\', sans-serif"},"fonts":["Ovo","Quattrocento+Sans:400,400i,700,700i"]},"ubuntu-open":{"name":"Ubuntu + Open Sans","type":"default","category":"striking,neutral","heading":{"font-weight":700,"text-transform":"uppercase","font-family":"\'Ubuntu\', sans-serif"},"content":{"font-family":"\'Open Sans\', sans-serif"},"fonts":["Ubuntu:300,300i,400,400i,500,500i,700,700i","Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"]},"source-sintony":{"name":"Source Sans Pro + Sintony","type":"default","category":"neutral","heading":{"font-weight":900,"font-family":"\'Source Sans Pro\', sans-serif"},"content":{"font-family":"\'Sintony\', sans-serif"},"fonts":["Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i","Sintony:400,700"]},"slabo-lato":{"name":"Slabo 13px + Lato","type":"default","category":"modern,striking,eccentric,neutral,warm","heading":{"font-weight":700,"font-family":"\'Slabo 13px\', serif"},"content":{"font-family":"\'Lato\', sans-serif"},"fonts":["Slabo+13px","Lato:100,100i,300,300i,400,400i,700,700i,900,900i"]},"rufina-pt":{"name":"Rufina + PT Serif","type":"default","category":"minimal,warm","heading":{"font-weight":700,"font-family":"\'Rufina\', serif"},"content":{"font-family":"\'PT Serif\', serif"},"fonts":["Rufina:400,700","PT+Serif:400,400i,700,700i"]},"dosis-titillium":{"name":"Dosis + Titillium Web","type":"default","category":"modern,eccentric,neutral","heading":{"font-weight":400,"font-family":"\'Dosis\', sans-serif"},"content":{"font-family":"\'Titillium Web\', sans-serif"},"fonts":["Dosis:200,300,400,500,600,700,800","Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900"]},"oswald-esteban":{"name":"Oswald + Esteban","type":"default","category":"modern,eccentric,warm","heading":{"font-weight":300,"font-family":"\'Oswald\', sans-serif"},"content":{"font-family":"\'Esteban\', serif"},"fonts":["Oswald:200,300,400,500,600,700","Esteban"]},"playfair-source":{"name":"Playfair Display + Source Sans Pro","type":"default","category":"striking,eccentric,warm","heading":{"font-weight":900,"font-family":"\'Playfair Display\', serif"},"content":{"font-family":"\'Source Sans Pro\', sans-serif"},"fonts":["Playfair+Display:400,400i,700,700i,900,900i","Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"]},"libre-nunito":{"name":"Libre Baskerville + Nunito","type":"default","category":"minimal,neutral","heading":{"font-weight":700,"font-family":"\'Libre Baskerville\', serif"},"content":{"font-family":"\'Nunito\', sans-serif"},"fonts":["Libre+Baskerville:400,400i,700","Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"]},"catamaran-merriweather":{"name":"Catamaran + Merriweather Sans","type":"default","category":"modern,neutral","heading":{"font-weight":600,"font-family":"\'Catamaran\', sans-serif"},"content":{"font-weight":300,"font-family":"\'Merriweather Sans\', sans-serif"},"fonts":["Catamaran:100,200,300,400,500,600,700,800,900","Merriweather+Sans:300,300i,400,400i,700,700i,800,800i"]},"bree-alegreya":{"name":"Bree Serif + Alegreya","type":"default","category":"striking,eccentric,warm","heading":{"font-weight":700,"text-transform":"uppercase","font-family":"\'Bree Serif\', serif"},"content":{"font-weight":300,"font-family":"\'Alegreya\', serif"},"fonts":["Bree+Serif","Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i"]},"cardo-libre":{"name":"Cardo + Libre Franklin","type":"default","category":"striking,classic,neutral","heading":{"font-weight":700,"font-family":"\'Cardo\', serif"},"content":{"font-family":"\'Libre Franklin\', sans-serif"},"fonts":["Cardo:400,400i,700","Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"]},"roboto-libre":{"name":"Roboto + Libre Baskerville","type":"default","category":"minimal,neutral","heading":{"font-weight":500,"font-family":"\'Roboto\', sans-serif"},"content":{"font-family":"\'Libre Baskerville\', serif"},"fonts":["Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i","Libre+Baskerville:400,400i,700"]},"goudy-average":{"name":"Goudy Bookletter 1911 + Average Sans","type":"default","category":"classic,warm","heading":{"font-weight":500,"font-family":"\'Goudy Bookletter 1911\', serif"},"content":{"font-family":"\'Average Sans\', sans-serif"},"fonts":["Goudy+Bookletter+1911","Average+Sans"]},"raleway-frank":{"name":"Raleway + Frank Ruhl Libre","type":"default","category":"minimal,neutral","heading":{"font-weight":300,"font-family":"\'Raleway\', sans-serif"},"content":{"font-family":"\'Frank Ruhl Libre\', serif"},"fonts":["Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i","Frank+Ruhl+Libre:300,400,500,700,900"]},"prata-lato":{"name":"Prata + Lato","type":"default","category":"eccentric,warm","heading":{"font-weight":400,"font-family":"\'Prata\', serif"},"content":{"font-family":"\'Lato\', sans-serif"},"fonts":["Prata","Lato:100,100i,300,300i,400,400i,700,700i,900,900i"]},"ezcar-merriweather":{"name":"Eczar + Merriweather","type":"default","category":"classic,neutral","heading":{"font-weight":600,"font-family":"\'Eczar\', serif"},"content":{"font-family":"\'Merriweather\', serif"},"fonts":["Eczar:400,500,600,700,800","Merriweather:300,300i,400,400i,700,700i,900,900i"]},"chivo-crimson":{"name":"Chivo + Crimson Text","type":"default","category":"minimal,neutral","heading":{"font-weight":300,"font-family":"\'Chivo\', sans-serif"},"content":{"font-family":"\'Crimson Text\', serif"},"fonts":["Chivo:300,300i,400,400i,700,700i,900,900i","Crimson+Text:400,400i,600,600i,700,700i"]},"rubik-karla":{"name":"Rubik + Karla","type":"default","category":"modern,minimal","heading":{"font-weight":400,"font-family":"\'Rubik\', sans-serif"},"content":{"font-family":"\'Karla\', sans-serif"},"fonts":["Rubik:300,300i,400,400i,500,500i,700,700i,900,900i","Karla:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"]},"neuton-work":{"name":"Neuton + Work Sans","type":"default","category":"striking,classic,warm","heading":{"font-weight":400,"font-family":"\'Neuton\', serif"},"content":{"font-family":"\'Work Sans\', sans-serif"},"fonts":["Neuton:200,300,400,400i,700,800","Work+Sans:100,200,300,400,500,600,700,800,900"]},"anton-signika":{"name":"Anton + Signika","type":"default","category":"striking,eccentric,minimal,neutral","heading":{"font-weight":400,"font-family":"\'Anton\', sans-serif"},"content":{"font-weight":300,"font-family":"\'Signika\', sans-serif"},"fonts":["Anton","Signika:300,400,600,700"]}}');
@@ -2412,7 +2432,7 @@ module.exports = JSON.parse('{"roboto-cabin":{"name":"Roboto Condensed + Cabin",
 /*!***************************************************************!*\
   !*** ./src/add-ons/typography/src/defaults/google-fonts.json ***!
   \***************************************************************/
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'Abril Fatface\', cursive","weights":""},{"name":"Alegreya","font-family":"\'Alegreya\', serif","weights":"400,400i,500,500i,700,700i,800,800i,900,900i"},{"name":"Anton","font-family":"\'Anton\', sans-serif","weights":""},{"name":"Arvo","font-family":"\'Arvo\', serif","weights":"400,400i,700,700"},{"name":"Average Sans","font-family":"\'Average Sans\', sans-serif","weights":""},{"name":"Berkshire Swash","font-family":"\'Berkshire Swash\', cursive","weights":"400"},{"name":"Bitter","font-family":"\'Bitter\', serif","weights":"400,400i,700"},{"name":"Bree Serif","font-family":"\'Bree Serif\', serif","weights":""},{"name":"Cabin","font-family":"\'Cabin\', sans-serif","weights":"400,400i,500,500i,600,600i,700,700i"},{"name":"Cardo","font-family":"\'Cardo\', serif","weights":"400,400i,700"},{"name":"Catamaran","font-family":"\'Catamaran\', sans-serif","weights":"100,200,300,400,500,600,700,800,900"},{"name":"Chivo","font-family":"\'Chivo\', sans-serif","weights":"300,300i,400,400i,700,700i,900,900i"},{"name":"Cinzel","font-family":"\'Cinzel\', serif","weights":"400,700,90"},{"name":"Cormorant Garamond","font-family":"","weights":"300,300i,400,400i,500,500i,600,600i,700,700i"},{"name":"Crimson Text","font-family":"\'Cormorant Garamond\', serif","weights":"400,400i,600,600i,700,700i"},{"name":"Dosis","font-family":"\'Dosis\', sans-serif","weights":"200,300,400,500,600,700,800"},{"name":"Eczar","font-family":"\'Eczar\', serif","weights":"400,500,600,700,800"},{"name":"Esteban","font-family":"\'Esteban\', serif","weights":""},{"name":"Fauna One","font-family":"\'Fauna One\', serif","weights":""},{"name":"Fira Code","font-family":"\'Fira Code\', monospace","weights":"300,400,500,600,700"},{"name":"Fira Sans","font-family":"\'Fira Sans\', sans-serif","weights":"100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"},{"name":"Frank Ruhl Libre","font-family":"\'Frank Ruhl Libre\', serif","weights":"300,400,500,700,900"},{"name":"Goudy Bookletter 1911","font-family":"\'Goudy Bookletter 1911\', serif","weights":""},{"name":"Julius Sans One","font-family":"\'Julius Sans One\', sans-serif","weights":""},{"name":"Karla","font-family":"\'Karla\', sans-serif","weights":"200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"},{"name":"Lato","font-family":"\'Lato\', sans-serif","weights":"100,100i,300,300i,400,400i,700,700i,900,900i"},{"name":"Libre Baskerville","font-family":"\'Libre Baskerville\', serif","weights":"400,400i,700"},{"name":"Libre Franklin","font-family":"\'Libre Franklin\', sans-serif","weights":"100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"},{"name":"Lora","font-family":"\'Lora\', serif","weights":"400,400i,700,700i"},{"name":"Merriweather Sans","font-family":"\'Merriweather Sans\', sans-serif","weights":"300,300i,400,400i,700,700i,800,800i"},{"name":"Merriweather","font-family":"\'Merriweather\', serif","weights":"300,300i,400,400i,700,700i,900,900i"},{"name":"Monda","font-family":"\'Monda\', sans-serif","weights":"400,700"},{"name":"Muli","font-family":"\'Muli\', sans-serif","weights":"200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"},{"name":"Neuton","font-family":"\'Neuton\', serif","weights":"200,300,400,400i,700,800"},{"name":"Noto Serif","font-family":"\'Noto Serif\', serif","weights":"400,400i,700,700i"},{"name":"Nunito","font-family":"\'Nunito\', sans-serif","weights":"200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"},{"name":"Open Sans","font-family":"\'Open Sans\', sans-serif","weights":"300,300i,400,400i,600,600i,700,700i,800,800i"},{"name":"Oswald","font-family":"\'Oswald\', sans-serif","weights":"200,300,400,500,600,700"},{"name":"Ovo","font-family":"\'Ovo\', serif","weights":""},{"name":"Oxygen","font-family":"\'Oxygen\', sans-serif","weights":"300,400,700"},{"name":"PT Sans","font-family":"\'PT Sans\', sans-serif","weights":"400,400i,700,700i"},{"name":"PT Serif","font-family":"\'PT Serif\', serif","weights":"400,400i,700,700i"},{"name":"Playfair Display","font-family":"\'Playfair Display\', serif","weights":"400,400i,700,700i,900,900i"},{"name":"Poppins","font-family":"\'Poppins\', sans-serif","weights":"100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"},{"name":"Prata","font-family":"\'Prata\', serif","weights":""},{"name":"Quattrocento Sans","font-family":"\'Quattrocento Sans\', sans-serif","weights":"400,400i,700,700i"},{"name":"Quattrocento","font-family":"\'Quattrocento\', serif","weights":"400,700"},{"name":"Raleway","font-family":"\'Raleway\', sans-serif","weights":"100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"},{"name":"Roboto Condensed","font-family":"\'Roboto Condensed\', sans-serif","weights":"300,300i,400,400i,700,700i"},{"name":"Roboto Slab","font-family":"\'Roboto Slab\', serif","weights":"100,200,300,400,500,600,700,800,900"},{"name":"Roboto","font-family":"\'Roboto\', sans-serif","weights":"100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"},{"name":"Rubik","font-family":"\'Rubik\', sans-serif","weights":"300,300i,400,400i,500,500i,700,700i,900,900i"},{"name":"Ruda","font-family":"\'Ruda\', sans-serif","weights":"400,700,900"},{"name":"Rufina","font-family":"\'Rufina\', serif","weights":"400,700"},{"name":"Signika","font-family":"\'Signika\', sans-serif","weights":"300,400,600,700"},{"name":"Sintony","font-family":"\'Sintony\', sans-serif","weights":"400,700"},{"name":"Slabo 13px","font-family":"\'Slabo 13px\', serif","weights":""},{"name":"Source Sans Pro","font-family":"\'Source Sans Pro\', sans-serif","weights":"200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"},{"name":"Titillium Web","font-family":"\'Titillium Web\', sans-serif","weights":"200,200i,300,300i,400,400i,600,600i,700,700i,900"},{"name":"Ubuntu","font-family":"\'Ubuntu\', sans-serif","weights":"300,300i,400,400i,500,500i,700,700i"},{"name":"Unica One","font-family":"\'Unica One\', cursive","weights":""},{"name":"Varela Round","font-family":"\'Varela Round\', sans-serif","weights":""},{"name":"Vollkorn","font-family":"\'Vollkorn\', serif","weights":"400,400i,600,600i,700,700i,900,900i"},{"name":"Work Sans","font-family":"\'Work Sans\', sans-serif","weights":"100,200,300,400,500,600,700,800,900"}]}');
@@ -2450,9 +2470,9 @@ module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		var deferred = [];
-/******/ 		__webpack_require__.O = function(result, chunkIds, fn, priority) {
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
 /******/ 			if(chunkIds) {
 /******/ 				priority = priority || 0;
 /******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
@@ -2466,7 +2486,7 @@ module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'
 /******/ 				var priority = deferred[i][2];
 /******/ 				var fulfilled = true;
 /******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every(function(key) { return __webpack_require__.O[key](chunkIds[j]); })) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
 /******/ 						chunkIds.splice(j--, 1);
 /******/ 					} else {
 /******/ 						fulfilled = false;
@@ -2481,50 +2501,50 @@ module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'
 /******/ 			}
 /******/ 			return result;
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = function(module) {
+/******/ 		__webpack_require__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				function() { return module['default']; } :
-/******/ 				function() { return module; };
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = function(exports, definition) {
+/******/ 		__webpack_require__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	!function() {
-/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
-/******/ 	}();
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = function(exports) {
+/******/ 		__webpack_require__.r = (exports) => {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// no baseURI
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
@@ -2545,17 +2565,17 @@ module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'
 /******/ 		
 /******/ 		// no HMR manifest
 /******/ 		
-/******/ 		__webpack_require__.O.j = function(chunkId) { return installedChunks[chunkId] === 0; };
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
 /******/ 		
 /******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = function(parentChunkLoadingFunction, data) {
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
 /******/ 			var chunkIds = data[0];
 /******/ 			var moreModules = data[1];
 /******/ 			var runtime = data[2];
 /******/ 			// add "moreModules" to the modules object,
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
-/******/ 			if(chunkIds.some(function(id) { return installedChunks[id] !== 0; })) {
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
 /******/ 				for(moduleId in moreModules) {
 /******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
@@ -2577,14 +2597,14 @@ module.exports = JSON.parse('{"fonts":[{"name":"Abril Fatface","font-family":"\'
 /******/ 		var chunkLoadingGlobal = self["webpackChunkeditorskit_typography_addon"] = self["webpackChunkeditorskit_typography_addon"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], function() { return __webpack_require__("./src/index.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], () => (__webpack_require__("./src/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
