@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name:       Editorskit Typography Addon
- * Description:       Editorskit Typography Addon
+ * Description:       (Deprecated) Editorskit typography addon lets you apply typography on blocks and global level.
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           1.0.1
  * Author:            Munir Kamal
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
