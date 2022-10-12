@@ -46,7 +46,7 @@ class EditorsKit_Typography_Addon
 
 			wp_register_script(
 				"editorskit-typography-addon-script",
-				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/index.js',
+				EDITORSKIT_TYPOGRAPHY_ADDON_URL . 'build/index.js',
 				array(
 					"wp-element",
 					"wp-compose",
@@ -59,14 +59,14 @@ class EditorsKit_Typography_Addon
 			);
 			wp_register_style(
 				'editorskit-typography-addon-editor-style',
-				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/index.css',
+				EDITORSKIT_TYPOGRAPHY_ADDON_URL . 'build/index.css',
 				array(),
 				uniqid()
 			);
 
 			wp_register_style(
 				'editorskit-typography-addon-frontend-style',
-				EDITORSKIT_TYPOGRAPHY_ADDON_URL . '/build/style-index.css',
+				EDITORSKIT_TYPOGRAPHY_ADDON_URL . 'build/style-index.css',
 				array(),
 				uniqid()
 			);
